@@ -6,9 +6,9 @@ API de soporte desarrollada con Node.js, Express, TypeScript y Socket.io para la
 
 ## 🔗 Enlaces del Proyecto y Despliegue
 
-* **API en Producción (Backend):** `[INSERTAR_AQUI_LINK_DE_RENDER_O_PRODUCCION]`
 * **Repositorio Frontend:** `https://github.com/Pebody-h/vm-management-frontend.git`
-* **Demo Frontend en Producción:** `[INSERTAR_AQUI_LINK_DE_VERCEL_FRONTEND]`
+* **API en Producción (Backend):** `https://vm-management-backend.onrender.com`
+* **Demo Frontend en Producción:** `https://vm-management-frontend.vercel.app`
 
 > **Nota para evaluación:** Para visualizar la experiencia de usuario completa (Dashboard, Optimistic UI, Data Visualization y animaciones de socket), se requiere interactuar a través del cliente Frontend o desplegar ambos repositorios.
 
