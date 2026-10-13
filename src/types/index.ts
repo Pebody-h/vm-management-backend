@@ -1,4 +1,4 @@
-import { Request } from 'express';
+import type { Request } from 'express';
 
 export type Role = 'Administrador' | 'Cliente';
 export type VMStatus = 'Encendida' | 'Apagada' | 'Mantenimiento';
@@ -23,6 +23,7 @@ export interface VirtualMachine {
 }
 
 export interface AuthRequest extends Request {
+    cookies: Record<string, any>;
     user?: {
         id: string;
         email: string;
